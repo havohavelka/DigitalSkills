@@ -1,0 +1,237 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, img,figure {margin:0px; padding:0px; }
+head{
+
+}
+html{
+    height: 100%;
+}
+body{
+    background: #d7d7d7;
+    min-height:100%;
+    position:relative;
+    padding-bottom:120px;
+}
+#logo{
+    float: left;
+    padding: 5px;
+}
+#logo:hover{
+    background-color: #555;
+}
+ul {
+
+    top: 0;
+    width: 100%;
+    
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+
+    background-color: black;
+    background-size: cover;
+}
+li{
+   float: left;
+
+}
+    li a {
+        display: block;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        border-right: 1px solid #bbb;
+        font-size:20px;
+    }
+    li a:hover {
+        background-color: #555;
+        color: white;
+    }
+   /* li:last-child {
+        border-right: none;
+        float: right;*/
+    li.current {
+    background-color:  #555;
+    }
+header{
+    margin: 0 auto;
+    width: 100%;
+    height: 384px;
+    text-align:center;
+    background-image: url(images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+h1 {
+        padding-top: 15px;
+        font-size: 36px;
+        font-family: "Arial Black", Gadget, sans-serif;
+        color: #015878; 
+    
+        text-align: center;
+    }
+h2 {
+        font-size: 24px;
+        color: #302f2f;
+        padding: 15px;
+        font-family: "Arial Black", Gadget, sans-serif;
+    }
+h3 {
+        font-family: "Arial Black", Gadget, sans-serif;
+        font-size: 18px;
+        color: #387d99;
+}
+p{
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 14px;
+        color: #595858;
+}
+main{
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    position: relative;
+}
+    main p {
+        width: 70%; 
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px 20px;
+    }
+    #latestPost{
+        text-align: left;
+        font-size: 20px;
+    }
+ 
+    main small {
+        font-size: 12px;
+        color: #373737;
+        
+    }
+ 
+    main a {
+        color: #0f6c8d;
+        font-weight: bold;
+        text-decoration: none; 
+    }
+article{
+  background-color: #ededed;
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+  margin: 1em;
+}
+button{
+    background-color: #008CBA;
+    width: 100%;
+    padding: 13px 0px;
+    color: white;
+}
+    button:hover {
+        background-color: white;
+        color: #008CBA;
+        border-color: #008CBA;
+    }
+footer{
+  position: absolute;
+  height:60px;
+  width:100%;
+  left: 0 ; right: 0; bottom: 0; 
+  
+  background-color: black;
+  text-align: center;
+  color: aliceblue;
+}
+/*==INDEX==*/
+aside{
+  background-color: #ededed;
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+  margin: 1em;
+}
+aside#grid a:hover{
+    text-decoration: underline;
+    
+}
+
+/*==CONTACT==*/
+form{
+     width: 100%;
+     text-align: center;    
+}
+input{
+    align-content: center;
+    display: inline-block;
+}
+    input[type=text] {
+        width: 30%;
+        box-sizing: border-box;
+        padding: 10px; 
+        margin: 3px 30px 3px 30px;
+    }
+    input[name="message"] {
+        padding: 50px 390px;
+    }
+    input:focus{
+        border: 3px solid #555;
+    }
+    input[type=button], input[type=submit], input[type=reset] {
+        background-color: #008CBA;
+    
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 60%;
+    }
+    input[type=submit]:hover{
+        background-color: white;
+        color: #008CBA;
+        border-color: #008CBA;
+    }
+    br{
+        display: inline-block;
+        text-align: left;
+    }
+/*==BLOG==*/
+iframe{
+    float:right;
+    width: 50%;
+    padding: 10px 10px;
+    
+}
+    article.post p{
+        width: 100%;
+        padding: 10px 10px;
+    }
+    article.post h1{
+        padding-bottom: 20px;
+    
+    }
+    .post{
+        width: 70%; 
+       
+    }
+/*==About==*/
+#map {  float: right;
+        height: 300px;
+        width: 400px;
+        margin: 30px 30px;
+        
+}
+.aboutMe{
+        width: 70%; 
+       
+}
+    .aboutMe p{
+        width: 90%;
+        padding: 5px 10px;
+        
+    
+    }
+    .aboutMe h4{
+        padding: 10px;
+    }
